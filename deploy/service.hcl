@@ -81,7 +81,7 @@ job "rss-bot" {
       # https://www.nomadproject.io/docs/job-specification/resources
       resources {
         cpu        = 50 # in MHz
-        memory     = 8 # in MB
+        memory     = 10 # in MB
         memory_max = 64 # in MB
       }
     }
