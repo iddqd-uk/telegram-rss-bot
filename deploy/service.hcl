@@ -84,6 +84,12 @@ job "rss-bot" {
         memory     = 10 # in MB
         memory_max = 64 # in MB
       }
+
+      # https://www.nomadproject.io/docs/job-specification/service
+      service {
+        name = "telegram-rss-bot"
+        tags = ["telegram", "bot"]
+      }
     }
   }
 }
