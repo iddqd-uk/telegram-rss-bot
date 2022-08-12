@@ -2,10 +2,6 @@ name: deploy
 
 on:
   workflow_dispatch: {}
-  push:
-    paths: # docs: <https://bit.ly/3BSr3Xy>
-      - deploy/*.hcl
-      - .github/workflows/deploy.yml
 
 concurrency:
   group: deploy
