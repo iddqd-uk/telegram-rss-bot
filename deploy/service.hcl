@@ -47,7 +47,7 @@ job "rss-bot" {
       }
     }
 
-    task "app" {
+    task "rss-bot" {
       driver = "docker"
 
       volume_mount {
