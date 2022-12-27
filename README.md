@@ -16,7 +16,7 @@ For environment values management, you can use the Consul KV. This is very simpl
 - [Docker image page](https://github.com/tarampampam/rssbot-docker)
 - [Project page](https://github.com/iovxw/rssbot)
 
-[badge_tests]:https://img.shields.io/github/workflow/status/iddqd-uk/telegram-rss-bot/tests/main?logo=github&logoColor=white&label=tests
-[badge_deploy]:https://img.shields.io/github/workflow/status/iddqd-uk/telegram-rss-bot/deploy/main?logo=github&logoColor=white&label=deploy
+[badge_tests]:https://img.shields.io/github/actions/workflow/status/iddqd-uk/telegram-rss-bot/tests.yml?branch=main&logo=github&logoColor=white&label=tests
+[badge_deploy]:https://img.shields.io/github/actions/workflow/status/iddqd-uk/telegram-rss-bot/deploy.yml?logo=github&logoColor=white&label=deploy
 [link_actions]:https://github.com/iddqd-uk/telegram-rss-bot/actions
 [link_deploy]:https://github.com/iddqd-uk/telegram-rss-bot/actions/workflows/deploy.yml
