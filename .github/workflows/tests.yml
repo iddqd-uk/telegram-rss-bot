@@ -17,7 +17,7 @@ jobs:
     name: Gitleaks
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with: {fetch-depth: 0}
 
       - name: Check for GitLeaks
@@ -29,6 +29,6 @@ jobs:
     steps:
       - uses: gacts/install-nomad@v1
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - run: nomad job validate -var="telegram_bot_token=0" -var="admin_id=1" ./deploy/service.hcl
